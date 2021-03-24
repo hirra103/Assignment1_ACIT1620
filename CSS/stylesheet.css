@@ -1,14 +1,30 @@
+html, body {
+    height:100%;
+}
 header{
+    display:flex;
+    justify-content: space-between;
+}
+#right {
     background-color: #9ccfd8;
+}
+#layout {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
 }
 #side {
     background-color: #c4a7e7;
 }
 #left {
     background-color: #c4a7e7 ;
+    display:flex;
+    justify-content: left;
 }
 #main {
     background-color: #9ccfd8 ;
+    display:flex;
+    justify-content: center;
 }
 footer {
     background-color: #9ccfd8;
