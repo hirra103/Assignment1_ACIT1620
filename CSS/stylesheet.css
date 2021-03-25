@@ -60,6 +60,10 @@ footer {
     display:flex;
     width:100%;
     justify-content:center;
+    align-items:center;
+    position:absolute;
+    bottom:0;
+
 }
 #logos{
     display:flex;

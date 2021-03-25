@@ -4,29 +4,38 @@
     <link rel='stylesheet' href='CSS/stylesheet.css'>
 </head>
 <body>
-    <header>
-        <h1>
-            TAKE BETTER NOTES
-        </h1>
-        <ul id ='listheader'>
-            <li id ='about'> About </li>
-            <li id ='docs'> Docs </li>
-        </ul>
-    </header>
-    <div>
-        <section id = 'main'>
-            <ul id ='listtheme'>
-                <li id ='newnote'> New Note</li>
-                <li id = 'darktheme'> <button class = 'save' type ='button'>Dark Theme</button></li>
-            </ul>
-            <p id ='mainp'>
-                <textarea id ='mainp' name ='notes' rows ='7' cols='60'></textarea>
-            </p>
-            <ul id ='listsave'>
-                <li id ='save'>save</li>
-                <li id ='cancel'>Cancel</li>
-            </ul>
-        </section>
+    <div class ="row">
+        <div class ="column" id = 'right'>
+            <header>
+                <h1>
+                    TAKE BETTER NOTES
+                </h1>
+                <nav>
+                    <ul id ='listheader'>
+                        <li id ='about'> About </li>
+                        <li id ='docs'> Docs </li>
+                    </ul>
+                </nav>
+            </header>
+            <section id = 'main'>
+                <ul id ='listtheme'>
+                    <li id ='newnote'> New Note</li>
+                    <li id = 'darktheme'> <button class = 'save' type ='button'>Dark Theme</button></li>
+                </ul>
+                <p id ='mainp'>
+                    <textarea id ='mainp' name ='notes' rows ='7' cols='60'></textarea>
+                </p>
+                <ul id ='listsave'>
+                    <li id ='save'>save</li>
+                    <li id ='cancel'>Cancel</li>
+                </ul>
+            </section>
+         </div>
+         <div class ="column" id = 'left'>
+             <header>
+
+             </header>
+         </div>
     </div>
     <footer>
         <p>
