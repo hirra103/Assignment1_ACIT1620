@@ -1,50 +1,56 @@
 <!DOCTYPE html>
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='CSS/stylesheet.css'>
-</head>
-<body>
-    <div class ="row">
-        <div class ="column" id = 'right'>
-            <header>
-                <h1>
-                    TAKE BETTER NOTES
-                </h1>
-                <nav>
-                    <ul id ='listheader'>
-                        <li id ='about'> About </li>
-                        <li id ='docs'> Docs </li>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='CSS/stylesheet.css'>
+    </head>
+    <body>
+        <div class ="row">
+            <div class ="column" id = 'left'>
+                <header>
+                    <h1>MY NOTES</h1>
+                </header>
+                <ul>
+                    <li> Note one</li>
+                    <li> Note two</li>
+                </ul>
+            </div>
+            <div class ="column" id = 'right'>
+                <header>
+                    <h1>
+                        TAKE BETTER NOTES
+                    </h1>
+                    <nav>
+                        <ul id ='listheader'>
+                            <li id ='about'> About </li>
+                            <li id ='docs'> Docs </li>
+                        </ul>
+                    </nav>
+                </header>
+                <section id = 'main'>
+                    <ul id ='listtheme'>
+                        <li id ='newnote'> New Note</li>
+                        <li id = 'darktheme'> <button class = 'save' type ='button'>Dark Theme</button></li>
                     </ul>
-                </nav>
-            </header>
-            <section id = 'main'>
-                <ul id ='listtheme'>
-                    <li id ='newnote'> New Note</li>
-                    <li id = 'darktheme'> <button class = 'save' type ='button'>Dark Theme</button></li>
-                </ul>
-                <p id ='mainp'>
-                    <textarea id ='mainp' name ='notes' rows ='7' cols='60'></textarea>
-                </p>
-                <ul id ='listsave'>
-                    <li id ='save'>save</li>
-                    <li id ='cancel'>Cancel</li>
-                </ul>
-            </section>
-         </div>
-         <div class ="column" id = 'left'>
-             <header>
+                    <p id ='mainp'>
+                        <textarea id ='mainp' name ='notes' rows ='7' cols='30'></textarea>
+                        <textarea id ='mainp' name ='notes' rows ='7' cols='30'></textarea>
+                    </p>
+                    <ul id ='listsave'>
+                        <li id ='save'>save</li>
+                        <li id ='cancel'>Cancel</li>
+                    </ul>
+                </section>
+                <footer>
+                    <p>
+                        Keep in Touch
+                    </p>
+                    <ul id ='logos'>
+                        <li><img width = 50 height = 50 src ="images/logo_in.webp" alt ='linkedin logo'></li>
+                        <li><img width = 50 height = 50 src ="images/logo_globe.webp" alt ='globe logo'></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+    </body>
 
-             </header>
-         </div>
-    </div>
-    <footer>
-        <p>
-            Keep in Touch
-        </p>
-        <ul id ='logos'>
-            <li><img width = 50 height = 50 src ="images/logo_in.webp" alt ='linkedin logo'></li>
-            <li><img width = 50 height = 50 src ="images/logo_globe.webp" alt ='globe logo'></li>
-        </ul>
-    </footer>
-</body>
 </html>
